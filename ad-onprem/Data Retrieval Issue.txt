@@ -1,0 +1,2 @@
+Get-WSManInstance -ResourceURI winrm/config
+Set-WSManInstance -ResourceURI winrm/config -ValueSet @{MaxEnvelopeSizekb = "700"}

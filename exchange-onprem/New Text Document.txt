@@ -1,0 +1,1 @@
+.\HealthChecker.ps1 -BuildHtmlServersReport -XMLDirectoryPath C:\Location

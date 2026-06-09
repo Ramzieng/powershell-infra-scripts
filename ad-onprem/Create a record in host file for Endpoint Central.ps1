@@ -1,0 +1,1 @@
+﻿Add-Content -Path $env:windir\\System32\\drivers\\etc\\hosts -Value "10.217.13.42       opscontrol.nour.net.sa"  -Force

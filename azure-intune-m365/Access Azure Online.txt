@@ -1,0 +1,6 @@
+First you need to install AzureRM module.
+
+1. Enable TLS1.2 " [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 "
+2. Install NuGet provider " Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force "
+3. Check the package " Get-PackageProvider -ListAvailable "
+4. Install the AzureRM  " Install-Module AzureRM -AllowClobber "
