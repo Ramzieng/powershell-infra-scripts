@@ -1,5 +1,6 @@
 ﻿Install-Module Microsoft.Graph
 Import-Module Microsoft.Graph
+Import-Module Microsoft.Graph.Applications -Verbose
 Connect-MgGraph
 Connect-MgGraph -Scopes "Application.Read.All", "Application.ReadWrite.All"
 Get-MgServicePrincipal -Filter "AppId eq '00000002-0000-0ff1-ce00-000000000000'" | select -ExpandProperty ServicePrincipalNames
